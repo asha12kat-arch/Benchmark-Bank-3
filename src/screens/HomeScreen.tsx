@@ -83,9 +83,9 @@ export default function HomeScreen({ navigate }: Props) {
                 </div>
               </button>
             </div>
-            <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[40px] text-white">
-              {balanceVisible ? "$1,000,000,000,000.00" : "••••••••"}
-            </p>
+            <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[24px] sm:text-[40px] text-white whitespace-nowrap">
+  {balanceVisible ? "$1,000,000,000,000.00" : "••••••••"}
+</p>
             <div className="h-px relative shrink-0 w-full bg-[rgba(255,255,255,0.12)]" />
             <div className="content-stretch flex items-start justify-between relative shrink-0 w-full">
               <div className="content-stretch flex flex-col gap-[2px] items-start relative shrink-0">
