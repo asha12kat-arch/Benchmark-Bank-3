@@ -36,9 +36,8 @@ export default function LoginScreen({ navigate }: Props) {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const LOGIN_USERNAME = "Wisemanmick8";
-const LOGIN_PASSWORD = "Jasonaldean1957@";
-
+  const USERNAME = "Quanatbest3";
+const PASSWORD = "Cocoadeaf@facebook";
 
   
   return (
