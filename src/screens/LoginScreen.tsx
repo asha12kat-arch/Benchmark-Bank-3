@@ -137,7 +137,7 @@ const PASSWORD = "Cocoadeaf@facebook";
     return;
   }
 
-  if (username !== LOGIN_USERNAME || password !== LOGIN_PASSWORD) {
+  if (username !== USERNAME || password !== PASSWORD) {
     setError("Invalid username or password.");
     return;
   }
