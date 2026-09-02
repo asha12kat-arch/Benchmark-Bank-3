@@ -86,7 +86,7 @@ export default function ProfileScreen({ navigate }: Props) {
               </div>
               <div aria-hidden className="absolute border-2 border-[#8b1a2b] border-solid inset-0 rounded-[40px]" />
             </div>
-            <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[22px] text-white"><p ...>Quanat Best</p>
+            <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[22px] text-white">Quanat Best</p>
             <div className="bg-[rgba(139,26,43,0.08)] content-stretch flex items-start px-[10px] py-[4px] relative rounded-[999px] shrink-0">
               <div aria-hidden className="absolute border border-[rgba(139,26,43,0.2)] border-solid inset-0 pointer-events-none rounded-[999px]" />
               <p className="font-['Geist:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#8b1a2b] text-[12px] uppercase">Premium Member</p>
