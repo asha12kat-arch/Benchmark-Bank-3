@@ -150,9 +150,9 @@ export default function ProfileScreen({ navigate }: Props) {
             </div>
             <div className="h-px relative shrink-0 w-full bg-[rgba(255,255,255,0.12)]" />
             <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full">
-              <InfoRow label="Street" value="1 Radney Est" />
-              <InfoRow label="City/State" value="Houston, Texas 77024" />
-              <InfoRow label="Country" value="USA" />
+              <InfoRow label="Street" value="2709 W Timberlake Blvd" />
+<InfoRow label="City/State" value="Robersonville, NC 27871" />
+<InfoRow label="Country" value="USA" />
             </div>
           </div>
 
