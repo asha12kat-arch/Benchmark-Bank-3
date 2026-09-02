@@ -33,11 +33,11 @@ export default function HistoryScreen({ navigate }: Props) {
           <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full">
             <div className="bg-[#0b1524] content-stretch flex flex-col gap-[6px] items-start p-[14px] relative rounded-[16px] flex-1 min-w-0" style={{boxShadow: "0px 10px 24px 0px rgba(0,0,0,0.15)", border: "1px solid rgba(255,255,255,0.08)"}}>
               <p className="font-['Geist:Regular',sans-serif] font-normal relative shrink-0 text-[#94a3b8] text-[12px]">Money In</p>
-              <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[18px] text-[#15803d]">+${totalIn.toFixed(2)}</p>
+              <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 max-w-full whitespace-nowrap text-[clamp(8px,2.5vw,18px)] tracking-tight text-[#15803d]">+${totalIn.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
             </div>
             <div className="bg-[#0b1524] content-stretch flex flex-col gap-[6px] items-start p-[14px] relative rounded-[16px] flex-1 min-w-0" style={{boxShadow: "0px 10px 24px 0px rgba(0,0,0,0.15)", border: "1px solid rgba(255,255,255,0.08)"}}>
               <p className="font-['Geist:Regular',sans-serif] font-normal relative shrink-0 text-[#94a3b8] text-[12px]">Money Out</p>
-              <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[18px] text-[#f87171]">-${totalOut.toFixed(2)}</p>
+              <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 max-w-full whitespace-nowrap text-[clamp(8px,2.5vw,18px)] tracking-tight text-[#f87171]">-${totalOut.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
             </div>
           </div>
 
