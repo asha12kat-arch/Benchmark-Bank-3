@@ -70,7 +70,7 @@ export default function HistoryScreen({ navigate }: Props) {
                     <p className="font-['Geist:SemiBold',sans-serif] font-semibold relative shrink-0 text-[14px] text-white truncate max-w-full">{t.merchant}</p>
                     <p className="font-['Geist:Regular',sans-serif] font-normal relative shrink-0 text-[#94a3b8] text-[12px]">{t.category} · {t.date}</p>
                   </div>
-                  <p className={`font-['Geist:SemiBold',sans-serif] font-semibold relative shrink w-auto min-w-[75px] text-right text-[14px] ${t.amount > 0 ? "text-[#15803d]" : "text-[#f87171]"}`}>
+                  <p className={`font-['Geist:SemiBold',sans-serif] font-semibold relative shrink-0 w-[120px] min-w-0 text-right text-[11px] leading-[normal] ${t.amount > 0 ? "text-[#15803d]" : "text-[#f87171]"}`}>
                     {t.amount > 0 ? "+" : ""}{t.amount < 0 ? "-" : ""}${Math.abs(t.amount).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                   </p>
                 </div>
